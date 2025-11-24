@@ -263,6 +263,12 @@ if (bingKey)
 if (bingKey == 'remove')
     loStore.removeItem('bingKey');
 
+const aipKey = usp.get('OpenAIPKey');
+if (aipKey)
+    loStore['aipKey'] = aipKey;
+if (aipKey == 'remove')
+    loStore.removeItem('aipKey');
+
 if (usp.has('l3harris') || usp.has('ift')) {
     l3harris = true;
 }

@@ -240,6 +240,8 @@ let BingMapsAPIKey = null;
 //
 let MapboxAPIKey = null;
 
+let OpenAIPKey = null;
+
 let pf_data = ["chunks/pf.json"]
 
 let mapOrientation = 0; // This determines what is up, normally north (0 degrees)

@@ -530,14 +530,14 @@ function createBaseLayers() {
                 group: 'chartbundle'}));
         }
     } */
-   
-    if (loStore['openaipKey'] != undefined)
-        OpenAIPKey = loStore['openaipKey'];
+
+    if (loStore['aipKey'] != undefined)
+        OpenAIPKey = loStore['aipKey'];
 
     world.push(new ol.layer.Tile({
 
         source: new ol.source.XYZ({
-            "url" : "https://api.tiles.openaip.net/api/data/openaip/{z}/{x}/{y}.png?apiKey=" + OpenAIPIKey,
+            "url" : "https://api.tiles.openaip.net/api/data/openaip/{z}/{x}/{y}.png?apiKey=" + OpenAIPKey,
             "attributions" : "openAIP.net",
             attributionsCollapsible: false,
             maxZoom: 12,
