@@ -530,10 +530,14 @@ function createBaseLayers() {
                 group: 'chartbundle'}));
         }
     } */
+   
+    if (loStore['openaipKey'] != undefined)
+        OpenAIPKey = loStore['openaipKey'];
 
     world.push(new ol.layer.Tile({
+
         source: new ol.source.XYZ({
-            "url" : "https://map.adsbexchange.com/mapproxy/tiles/1.0.0/openaip/ul_grid/{z}/{x}/{y}.png",
+            "url" : "https://api.tiles.openaip.net/api/data/openaip/{z}/{x}/{y}.png?apiKey=" + OpenAIPIKey,
             "attributions" : "openAIP.net",
             attributionsCollapsible: false,
             maxZoom: 12,
@@ -851,6 +855,9 @@ function createBaseLayers() {
             }
         });
     };
+
+    //ENR 2.1 
+    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(28, 89, 202, 0.8)', false));
 
     // Taken from https://www.ais.pansa.pl/mil/pliki/EP_ENR_2_4_en.pdf
     europe.push(createGeoJsonLayer('PL AWACS Orbits', 'plawacsorbits', 'geojson/PL_Mil_AWACS_Orbits.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));

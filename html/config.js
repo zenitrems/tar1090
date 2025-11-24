@@ -226,6 +226,9 @@ BingMapsAPIKey = null;
 //
 MapboxAPIKey = null;
 
+// Provide an OpenAIP.net API key here to enable the OpenAIP layer.
+OpenAIPKey = null;
+
 // This determines what is up, default is north (0 degrees)
 //mapOrientation = 0;
 
