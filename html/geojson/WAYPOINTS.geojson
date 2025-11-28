@@ -4,51 +4,23 @@
     "features": [
         {
             "type": "Feature",
-            "id": "VOMAR",
             "properties": {
-                "id": "VOMAR",
                 "name": "VOMAR",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -87.946111,
-                    22.135000
+                    22.135
                 ]
             }
         },
         {
             "type": "Feature",
-            "id": "NOSAT",
             "properties": {
-                "id": "NOSAT",
                 "name": "NOSAT",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -60,23 +32,9 @@
         },
         {
             "type": "Feature",
-            "id": "SIGMA",
             "properties": {
-                "id": "SIGMA",
                 "name": "SIGMA",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -88,23 +46,9 @@
         },
         {
             "type": "Feature",
-            "id": "ILUBA",
             "properties": {
-                "id": "ILUBA",
                 "name": "ILUBA",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -116,23 +60,9 @@
         },
         {
             "type": "Feature",
-            "id": "TAKUX",
             "properties": {
-                "id": "TAKUX",
                 "name": "TAKUX",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -144,23 +74,9 @@
         },
         {
             "type": "Feature",
-            "id": "VOBED",
             "properties": {
-                "id": "VOBED",
                 "name": "VOBED",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -172,23 +88,9 @@
         },
         {
             "type": "Feature",
-            "id": "UDGUV",
             "properties": {
-                "id": "UDGUV",
                 "name": "UDGUV",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
@@ -200,23 +102,9 @@
         },
         {
             "type": "Feature",
-            "id": "NOSUG",
             "properties": {
-                "id": "NOSUG",
                 "name": "NOSUG",
-                "class": "FIX",
-                "upperCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "lowerCeiling": {
-                    "value": null,
-                    "unit": "FT",
-                    "referenceDatum": "MSL"
-                },
-                "type": "WAYPOINT",
-                "byNotam": false
+                "type": "FIX"
             },
             "geometry": {
                 "type": "Point",
