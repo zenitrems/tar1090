@@ -24,7 +24,206 @@
             },
             "geometry": {
                 "type": "Point",
-                "coordinates": [-87.946111, 22.135000]
+                "coordinates": [
+                    -87.946111,
+                    22.135000
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "NOSAT",
+            "properties": {
+                "id": "NOSAT",
+                "name": "NOSAT",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.981111,
+                    21.963611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "SIGMA",
+            "properties": {
+                "id": "SIGMA",
+                "name": "SIGMA",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.366667,
+                    19.617222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ILUBA",
+            "properties": {
+                "id": "ILUBA",
+                "name": "ILUBA",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.341111,
+                    20.189444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "TAKUX",
+            "properties": {
+                "id": "TAKUX",
+                "name": "TAKUX",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.896111,
+                    20.026944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "VOBED",
+            "properties": {
+                "id": "VOBED",
+                "name": "VOBED",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.220278,
+                    20.939722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "UDGUV",
+            "properties": {
+                "id": "UDGUV",
+                "name": "UDGUV",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.774722,
+                    20.807222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "NOSUG",
+            "properties": {
+                "id": "NOSUG",
+                "name": "NOSUG",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.929444,
+                    21.858889
+                ]
             }
         }
     ]
