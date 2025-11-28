@@ -833,17 +833,35 @@ function createBaseLayers() {
             style: function style(feature) {
                 const geomType = feature.getGeometry().getType();
                 if (geomType === 'Point') {
+
+                    const symbol = feature.get("symbol") || "HollowStar";
+
+                    let iconSrc = "";
+
+                    if (symbol === "HollowTriangle") {
+                        iconSrc = "images/icons/HollowTriangle.svg";
+
+                    } else if (symbol === "HollowStarReporting") {
+                        iconSrc = "images/icons/HollowStarReporting.svg";
+
+                    } else if (symbol === "HollowStar") {
+                        iconSrc = "images/icons/HollowStar.svg";
+
+                    } else {
+                        // valor por defecto si alguien escribe algo desconocido en el GeoJSON
+                        iconSrc = "images/icons/HollowStar.svg";
+                    }
+
+
                     return new ol.style.Style({
-                        image: new ol.style.RegularShape({
-                            points: 4,
-                            radius: 4,
-                            angle: Math.PI / 4,
-                            fill: new ol.style.Fill({ color: '#ffffff' }),
-                            stroke: new ol.style.Stroke({ color: '#000', width: 1 })
+                        image: new ol.style.Icon({
+                            src: iconSrc,
+                            scale: 0.6,
+                            anchor: [0.5, 0.5]
                         }),
                         text: OLMap.getView().getZoom() >= 7 ? new ol.style.Text({
                             text: feature.get("name") || "",
-                            offsetY: -12,
+                            offsetY: -14,
                             font: "12px 'Roboto', sans-serif",
                             fill: new ol.style.Fill({ color: "#fff" }),
                             stroke: new ol.style.Stroke({ color: "#000", width: 3 })
@@ -898,10 +916,10 @@ function createBaseLayers() {
     };
 
     //ENR 2.1 
-    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.5)', false));
+    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.1)', false));
 
     //WAYPOINTS CANCUN
-    world.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', false));
+    world.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', true));
 
     
 
