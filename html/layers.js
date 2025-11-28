@@ -831,15 +831,41 @@ function createBaseLayers() {
                 })
             }),
             style: function style(feature) {
-                return new ol.style.Style({
-                    fill: new ol.style.Fill({
-                        color : fill
-                    }),
-                    stroke: new ol.style.Stroke({
-                        color: stroke,
-                        width: 1
-                    }),
-                    text: new ol.style.Text({
+                const geomType = feature.getGeometry().getType();
+                if (geomType === 'Point' && !showLabel) {
+                    return new ol.style.Style({
+                        image: new ol.style.Circle({
+                            text: showLabel ? feature.get("name") : "",
+                            radius: 5,
+                            fill: new ol.style.Fill({color: stroke}),
+                            stroke: new ol.style.Stroke({color: '#000000', width: 1})
+                        })
+                    });
+                }
+                if (geomType === 'LineString') {
+                    return new ol.style.Style({
+                        stroke: new ol.style.Stroke({
+                            color: stroke,
+                            width: 2
+                        }),
+                        text: new ol.style.Text({
+                            text: showLabel ? feature.get("name") : "",
+                            overflow: OLMap.getView().getZoom() > 5,
+                            scale: 1.25,
+                            fill: new ol.style.Fill({
+                                color: '#000000'
+                            }),
+                            stroke: new ol.style.Stroke({
+                                color: '#FFFFFF',
+                                width: 2
+                            })
+                        })
+                    });
+                }
+                if (geomType === "Polygon") {
+                    return new ol.style.Style({
+                        fill: new ol.style.Fill({ color: fill }),
+                        stroke: new ol.style.Stroke({ color: stroke, width: 1 }),
                         text: showLabel ? feature.get("name") : "",
                         overflow: OLMap.getView().getZoom() > 5,
                         scale: 1.25,
@@ -850,14 +876,19 @@ function createBaseLayers() {
                             color: '#FFFFFF',
                             width: 2
                         })
-                    })
-                });
+                    });
+                } 
             }
         });
     };
 
     //ENR 2.1 
-    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(28, 89, 202, 0.8)', false));
+    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.8)', false));
+
+    //WAYPOINTS CANCUN
+    world.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', false));
+
+    
 
     // Taken from https://www.ais.pansa.pl/mil/pliki/EP_ENR_2_4_en.pdf
     europe.push(createGeoJsonLayer('PL AWACS Orbits', 'plawacsorbits', 'geojson/PL_Mil_AWACS_Orbits.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
