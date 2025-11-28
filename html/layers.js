@@ -834,17 +834,19 @@ function createBaseLayers() {
                 const geomType = feature.getGeometry().getType();
                 if (geomType === 'Point') {
                     return new ol.style.Style({
-                        image: new ol.style.Circle({
+                        image: new ol.style.RegularShape({
+                            points: 4,
                             radius: 4,
+                            angle: Math.PI / 4,
                             fill: new ol.style.Fill({ color: '#ffffff' }),
-                            stroke: new ol.style.Stroke({ color: '#000000', width: 1 })
+                            stroke: new ol.style.Stroke({ color: '#000', width: 1 })
                         }),
-                        text: showLabel ? new ol.style.Text({
+                        text: OLMap.getView().getZoom() >= 7 ? new ol.style.Text({
                             text: feature.get("name") || "",
-                            font: "12px sans-serif",
                             offsetY: -12,
-                            fill: new ol.style.Fill({ color: '#ffffff' }),
-                            stroke: new ol.style.Stroke({ color: '#000000', width: 3 })
+                            font: "12px 'Roboto', sans-serif",
+                            fill: new ol.style.Fill({ color: "#fff" }),
+                            stroke: new ol.style.Stroke({ color: "#000", width: 3 })
                         }) : null
                     });
                 }
