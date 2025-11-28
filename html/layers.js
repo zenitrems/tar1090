@@ -835,16 +835,16 @@ function createBaseLayers() {
                 if (geomType === 'Point') {
                     return new ol.style.Style({
                         image: new ol.style.Circle({
-                            radius: 3,
-                            fill: new ol.style.Fill({ color: 'rgba(255,255,255,0.6)' }),
-                            stroke: new ol.style.Stroke({ color: '#000', width: 1 })
+                            radius: 4,
+                            fill: new ol.style.Fill({ color: '#ffffff' }),
+                            stroke: new ol.style.Stroke({ color: '#000000', width: 1 })
                         }),
                         text: showLabel ? new ol.style.Text({
                             text: feature.get("name") || "",
-                            offsetY: -10,
-                            font: "11px sans-serif",
-                            fill: new ol.style.Fill({ color: '#000' }),
-                            stroke: new ol.style.Stroke({ color: '#fff', width: 2 })
+                            font: "12px sans-serif",
+                            offsetY: -12,
+                            fill: new ol.style.Fill({ color: '#ffffff' }),
+                            stroke: new ol.style.Stroke({ color: '#000000', width: 3 })
                         }) : null
                     });
                 }
