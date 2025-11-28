@@ -836,18 +836,15 @@ function createBaseLayers() {
                     return new ol.style.Style({
                         image: new ol.style.Circle({
                             radius: 3,
-                            fill: new ol.style.Fill({ color: 'rgba(255, 255, 255, 0.4)' }),
-                            stroke: new ol.style.Stroke({ color: stroke, width: 1 })
+                            fill: new ol.style.Fill({ color: 'rgba(255,255,255,0.6)' }),
+                            stroke: new ol.style.Stroke({ color: '#000', width: 1 })
                         }),
                         text: showLabel ? new ol.style.Text({
                             text: feature.get("name") || "",
-                            font: "11px sans-serif",
                             offsetY: -10,
-                            fill: new ol.style.Fill({ color: '#000000' }),
-                            stroke: new ol.style.Stroke({
-                                color: '#FFFFFF',
-                                width: 2
-                            })
+                            font: "11px sans-serif",
+                            fill: new ol.style.Fill({ color: '#000' }),
+                            stroke: new ol.style.Stroke({ color: '#fff', width: 2 })
                         }) : null
                     });
                 }
