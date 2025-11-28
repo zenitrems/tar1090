@@ -826,7 +826,7 @@ function createBaseLayers() {
                 url: url,
                 transition: tileTransition,
                 format: new ol.format.GeoJSON({
-                    defaultDataProjection :'EPSG:4326',
+                    defaultDataProjection: 'EPSG:4326',
                     projection: 'EPSG:3857'
                 })
             }),
@@ -837,8 +837,8 @@ function createBaseLayers() {
                         image: new ol.style.Circle({
                             text: showLabel ? feature.get("name") : "",
                             radius: 5,
-                            fill: new ol.style.Fill({color: stroke}),
-                            stroke: new ol.style.Stroke({color: '#000000', width: 1})
+                            fill: new ol.style.Fill({ color: stroke }),
+                            stroke: new ol.style.Stroke({ color: '#000000', width: 1 })
                         })
                     });
                 }
@@ -864,26 +864,33 @@ function createBaseLayers() {
                 }
                 if (geomType === "Polygon") {
                     return new ol.style.Style({
-                        fill: new ol.style.Fill({ color: fill }),
-                        stroke: new ol.style.Stroke({ color: stroke, width: 1 }),
-                        text: showLabel ? feature.get("name") : "",
-                        overflow: OLMap.getView().getZoom() > 5,
-                        scale: 1.25,
                         fill: new ol.style.Fill({
-                            color: '#000000'
+                            color: fill
                         }),
                         stroke: new ol.style.Stroke({
-                            color: '#FFFFFF',
-                            width: 2
+                            color: stroke,
+                            width: 1
+                        }),
+                        text: new ol.style.Text({
+                            text: showLabel ? feature.get("name") : "",
+                            overflow: OLMap.getView().getZoom() > 5,
+                            scale: 1.25,
+                            fill: new ol.style.Fill({
+                                color: '#000000'
+                            }),
+                            stroke: new ol.style.Stroke({
+                                color: '#FFFFFF',
+                                width: 2
+                            })
                         })
                     });
-                } 
+                }
             }
         });
     };
 
     //ENR 2.1 
-    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.8)', false));
+    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.5)', false));
 
     //WAYPOINTS CANCUN
     world.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', false));
