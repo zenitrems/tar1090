@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "name": "WAYPOINTS",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "VOMAR",
+            "properties": {
+                "id": "VOMAR",
+                "name": "VOMAR",
+                "class": "FIX",
+                "upperCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "lowerCeiling": {
+                    "value": null,
+                    "unit": "FT",
+                    "referenceDatum": "MSL"
+                },
+                "type": "WAYPOINT",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-87.946111, 22.135000]
+            }
+        }
+    ]
+}
