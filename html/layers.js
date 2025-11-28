@@ -832,14 +832,23 @@ function createBaseLayers() {
             }),
             style: function style(feature) {
                 const geomType = feature.getGeometry().getType();
-                if (geomType === 'Point' && !showLabel) {
+                if (geomType === 'Point') {
                     return new ol.style.Style({
                         image: new ol.style.Circle({
-                            text: showLabel ? feature.get("name") : "",
-                            radius: 5,
-                            fill: new ol.style.Fill({ color: stroke }),
-                            stroke: new ol.style.Stroke({ color: '#000000', width: 1 })
-                        })
+                            radius: 3,
+                            fill: new ol.style.Fill({ color: 'rgba(255, 255, 255, 0.4)' }),
+                            stroke: new ol.style.Stroke({ color: stroke, width: 1 })
+                        }),
+                        text: showLabel ? new ol.style.Text({
+                            text: feature.get("name") || "",
+                            font: "11px sans-serif",
+                            offsetY: -10,
+                            fill: new ol.style.Fill({ color: '#000000' }),
+                            stroke: new ol.style.Stroke({
+                                color: '#FFFFFF',
+                                width: 2
+                            })
+                        }) : null
                     });
                 }
                 if (geomType === 'LineString') {
