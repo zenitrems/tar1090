@@ -6,7 +6,6 @@
             "type": "Feature",
             "properties": {
                 "name": "VOMAR",
-                "type": "FIX",
                 "symbol": "HollowStar"
             },
             "geometry": {
@@ -21,7 +20,6 @@
             "type": "Feature",
             "properties": {
                 "name": "NOSAT",
-                "type": "FIX",
                 "symbol": "HollowTiangle"
             },
             "geometry": {
@@ -36,7 +34,6 @@
             "type": "Feature",
             "properties": {
                 "name": "SIGMA",
-                "type": "FIX",
                 "symbol": "HollowTiangle"
             },
             "geometry": {
@@ -51,7 +48,6 @@
             "type": "Feature",
             "properties": {
                 "name": "ILUBA",
-                "type": "FIX",
                 "symbol": "HollowTiangle"
             },
             "geometry": {
@@ -66,7 +62,6 @@
             "type": "Feature",
             "properties": {
                 "name": "TAKUX",
-                "type": "FIX",
                 "symbol": "HollowStarReporting"
             },
             "geometry": {
@@ -81,7 +76,6 @@
             "type": "Feature",
             "properties": {
                 "name": "UDGUV",
-                "type": "FIX",
                 "symbol": "HollowTiangle"
             },
             "geometry": {
@@ -96,7 +90,6 @@
             "type": "Feature",
             "properties": {
                 "name": "NOSUG",
-                "type": "FIX",
                 "symbol": "HollowStar"
             },
             "geometry": {
@@ -111,7 +104,6 @@
             "type": "Feature",
             "properties": {
                 "name": "NUKAN",
-                "type": "FIX",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -126,7 +118,6 @@
             "type": "Feature",
             "properties": {
                 "name": "URTOK",
-                "type": "FIX",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -141,7 +132,6 @@
             "type": "Feature",
             "properties": {
                 "name": "XUDUN",
-                "type": "FIX",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -156,7 +146,6 @@
             "type": "Feature",
             "properties": {
                 "name": "PAULE",
-                "type": "FIX",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -169,10 +158,8 @@
         },
         {
             "type": "Feature",
-            "id": "ROTGI",
             "properties": {
                 "name": "ROTGI",
-                "type": "WAYPOINT",
                 "symbol": "HollowStar"
             },
             "geometry": {
@@ -185,10 +172,8 @@
         },
         {
             "type": "Feature",
-            "id": "ALSUP",
             "properties": {
                 "name": "ALSUP",
-                "type": "WAYPOINT",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -201,10 +186,8 @@
         },
         {
             "type": "Feature",
-            "id": "HECAT",
             "properties": {
                 "name": "HECAT",
-                "type": "WAYPOINT",
                 "symbol": "HollowTriangle"
             },
             "geometry": {
@@ -212,6 +195,62 @@
                 "coordinates": [
                     -86.013889,
                     20.562778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "MYDIA",
+                "symbol": "HollowStarReporting"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.158333,
+                    24.040556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NUDIS",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.788889,
+                    23.444444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "PISAD",
+                "symbol": "HollowStarReporting"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.140278,
+                    24.288611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "RAKAR",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.458333,
+                    22.765556
                 ]
             }
         }
