@@ -21,6 +21,7 @@ function createBaseLayers() {
     let world = new ol.Collection();
     let us = new ol.Collection();
     let europe = new ol.Collection();
+    let custom_layers = new ol.Collection();
 
     const tileTransition = onMobile ? 0 : 0;
 
@@ -414,11 +415,11 @@ function createBaseLayers() {
             },
         }));
         world.push(new ol.mapboxStyle.MapboxVectorLayer({
-            styleUrl: 'mapbox://styles/mapbox/light-v11',
+            styleUrl: 'mapbox://styles/zenlab/cmis6x095001i01s6erq44w0g',
             accessToken: MapboxAPIKey,
             properties: {
-                name: 'mapbox_light',
-                title: 'Mapbox Light',
+                name: 'mapbox_tar1090',
+                title: 'Mapbox Tar1090',
                 type: 'base',
             },
         }));
@@ -916,10 +917,9 @@ function createBaseLayers() {
     };
 
     //ENR 2.1 
-    world.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.1)', false));
-
+    custom_layers.push(createGeoJsonLayer('MERIDA CTA', 'meridacta', 'geojson/MERIDA_CTA.geojson', 'rgba(0,0,0,0)', 'rgba(200, 255, 0, 0.1)', false));
     //WAYPOINTS CANCUN
-    world.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', true));
+    custom_layers.push(createGeoJsonLayer('WAYPOINTS', 'waypoints', 'geojson/WAYPOINTS.geojson', 'rgba(0,0,0,0)', 'rgba(202, 28, 28, 0.8)', true));
 
     
 
