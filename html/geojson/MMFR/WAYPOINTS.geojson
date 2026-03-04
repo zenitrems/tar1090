@@ -1,0 +1,258 @@
+{
+    "type": "FeatureCollection",
+    "name": "WAYPOINTS",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "VOMAR",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.946111,
+                    22.135
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NOSAT",
+                "symbol": "HollowTiangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.981111,
+                    21.963611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "SIGMA",
+                "symbol": "HollowTiangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.366667,
+                    19.617222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ILUBA",
+                "symbol": "HollowTiangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.341111,
+                    20.189444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "TAKUX",
+                "symbol": "HollowStarReporting"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.896111,
+                    20.026944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "UDGUV",
+                "symbol": "HollowTiangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.774722,
+                    20.807222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NOSUG",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.929444,
+                    21.858889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NUKAN",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.738056,
+                    21.492778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "URTOK",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.857778,
+                    21.393333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "XUDUN",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -88.421389,
+                    21.369722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "PAULE",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.409444,
+                    19.815278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ROTGI",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.671944,
+                    21.843056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ALSUP",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.908889,
+                    19.671111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "HECAT",
+                "symbol": "HollowTriangle"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.013889,
+                    20.562778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "MYDIA",
+                "symbol": "HollowStarReporting"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.158333,
+                    24.040556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "NUDIS",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.788889,
+                    23.444444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "PISAD",
+                "symbol": "HollowStarReporting"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.140278,
+                    24.288611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "RAKAR",
+                "symbol": "HollowStar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.458333,
+                    22.765556
+                ]
+            }
+        }
+    ]
+}

@@ -822,35 +822,138 @@ function createBaseLayers() {
                 url: url,
                 transition: tileTransition,
                 format: new ol.format.GeoJSON({
-                    defaultDataProjection :'EPSG:4326',
+                    defaultDataProjection: 'EPSG:4326',
                     projection: 'EPSG:3857'
                 })
             }),
             style: function style(feature) {
-                return new ol.style.Style({
-                    fill: new ol.style.Fill({
-                        color : fill
-                    }),
-                    stroke: new ol.style.Stroke({
-                        color: stroke,
-                        width: 1
-                    }),
-                    text: new ol.style.Text({
-                        text: showLabel ? feature.get("name") : "",
-                        overflow: OLMap.getView().getZoom() > 5,
-                        scale: 1.25,
-                        fill: new ol.style.Fill({
-                            color: '#000000'
+                const geomType = feature.getGeometry().getType();
+                if (geomType === 'Point') {
+
+                    const symbol = feature.get("symbol") || "HollowStar";
+
+                    let iconSrc = "";
+
+                    if (symbol === "HollowTriangle") {
+                        iconSrc = "images/icons/HollowTriangle.svg";
+
+                    } else if (symbol === "HollowStarReporting") {
+                        iconSrc = "images/icons/HollowStarReporting.svg";
+
+                    } else if (symbol === "HollowStar") {
+                        iconSrc = "images/icons/HollowStar.svg";
+
+                    } else {
+                        iconSrc = "images/icons/HollowStar.svg";
+                    }
+
+
+                    return new ol.style.Style({
+                        image: new ol.style.Icon({
+                            src: iconSrc,
+                            scale: 0.6,
+                            anchor: [0.5, 0.5]
                         }),
-                        stroke: new ol.style.Stroke({
-                            color: '#FFFFFF',
-                            width: 2
-                        })
-                    })
-                });
+                        text: OLMap.getView().getZoom() >= 7 ? new ol.style.Text({
+                            text: feature.get("name") || "",
+                            offsetY: -14,
+                            font: "11px 'Roboto', sans-serif",
+                            fill: new ol.style.Fill({ color: "#fff" }),
+                            stroke: new ol.style.Stroke({ color: "#000", width: 0 })
+                        }) : null
+                    });
+                }
+                if (geomType === 'LineString' || geomType === 'MultiLineString') {
+                    return new ol.style.Style({
+                        stroke: new ol.style.Stroke({ color: stroke, width: 0.5 }),
+                        text: (showLabel && OLMap.getView().getZoom() >= 7) ? new ol.style.Text({
+                            text: feature.get("name") || "",
+                            overflow: true,
+                            scale: 1.25,
+                            fill: new ol.style.Fill({ color: '#FFFFFF' }),
+                            stroke: new ol.style.Stroke({ color: '#000000', width: 0.5 })
+                        }) : null
+                    });
+                }
+                if (geomType === "Polygon" || geomType === "MultiPolygon") {
+                    return new ol.style.Style({
+                        fill: new ol.style.Fill({ color: fill }),
+                        stroke: new ol.style.Stroke({ color: stroke, width: 0.5 }),
+                        text: (showLabel && OLMap.getView().getZoom() >= 7) ? new ol.style.Text({
+                            text: feature.get("name") || "",
+                            overflow: true,
+                            scale: 1.25,
+                            fill: new ol.style.Fill({ color: '#000000' }),
+                            stroke: new ol.style.Stroke({ color: '#FFFFFF', width: 0.5 })
+                        }) : null
+                    });
+                }
             }
         });
     };
+
+    //ENR 2.1 
+    custom_layers.push(
+        createGeoJsonLayer(
+            'MERIDA CTA',
+            'meridacta',
+            'geojson/MERIDA_CTA.geojson',
+            'rgba(0,0,0,0)',
+            'rgba(251, 255, 0, 0.69)',
+            false
+        )
+    );
+    //WAYPOINTS CANCUN
+    custom_layers.push(
+        createGeoJsonLayer(
+            'WAYPOINTS',
+            'waypoints',
+            'geojson/WAYPOINTS.geojson',
+            'rgba(0,0,0,0)',
+            'rgb(0, 0, 0)',
+            true
+        )
+    );
+    custom_layers.push(
+        createGeoJsonLayer(
+            'MMUN STAR RNAV RWY 12',
+            'mmun_star_rnav_12',
+            'geojson/MMUN_STAR_RNAV_12.geojson',
+            'rgba(0,0,0,0)',
+            'rgb(0, 255, 50)',
+            false
+        )
+    );
+    custom_layers.push(
+        createGeoJsonLayer(
+            'MMUN STAR RNAV RWY 30',
+            'mmun_star_rnav_30',
+            'geojson/MMUN_STAR_RNAV_30.geojson',
+            'rgba(0,0,0,0)',
+            'rgb(0, 255, 50)',
+            false
+        )
+    );
+    custom_layers.push(
+        createGeoJsonLayer(
+            'MMUN SID RNAV RWY 12R',
+            'mmun_sid_rnav_12r',
+            'geojson/MMUN_SID_RNAV_12R.geojson',
+            'rgba(0,0,0,0)',
+            'rgb(255, 150, 0)',
+            false
+        )
+    );
+    custom_layers.push(
+        createGeoJsonLayer(
+            'MMUN SID RNAV RWY 30L',
+            'mmun_sid_rnav_30l',
+            'geojson/MMUN_SID_RNAV_30L.geojson',
+            'rgba(0,0,0,0)',
+            'rgb(255, 150, 0)',
+            false
+        )
+    );
 
     // Taken from https://www.ais.pansa.pl/mil/pliki/EP_ENR_2_4_en.pdf
     europe.push(createGeoJsonLayer('PL AWACS Orbits', 'plawacsorbits', 'geojson/PL_Mil_AWACS_Orbits.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));

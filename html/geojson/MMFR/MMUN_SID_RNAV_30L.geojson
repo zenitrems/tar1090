@@ -1,0 +1,222 @@
+{
+  "type": "FeatureCollection",
+  "name": "MMUN_SID_RNAV_RWY30L_SID4",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_NUDAL-1F",
+      "properties": {
+        "name": "NUDAL-1F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.85775,
+            21.14463888888889
+          ],
+          [
+            -86.58783333333332,
+            21.15136111111111
+          ],
+          [
+            -85.98580555555556,
+            21.194083333333335
+          ],
+          [
+            -85.62054722222221,
+            21.26332777777778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_AVSEB-1F",
+      "properties": {
+        "name": "AVSEB-1F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.97083333333333,
+            20.98988888888889
+          ],
+          [
+            -86.96266666666666,
+            20.92313888888889
+          ],
+          [
+            -86.92247222222223,
+            20.59361111111111
+          ],
+          [
+            -86.91194444444444,
+            20.5075
+          ],
+          [
+            -86.61669444444443,
+            20.44886111111111
+          ],
+          [
+            -86.22527777777778,
+            20.370333333333335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_ALSUP-1F",
+      "properties": {
+        "name": "ALSUP-1F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.97083333333333,
+            20.98988888888889
+          ],
+          [
+            -86.96266666666666,
+            20.92313888888889
+          ],
+          [
+            -86.92247222222223,
+            20.59361111111111
+          ],
+          [
+            -86.91194444444444,
+            20.5075
+          ],
+          [
+            -86.91019444444446,
+            20.224416666666666
+          ],
+          [
+            -86.90877777777779,
+            19.67102777777778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_UDGUV-1F",
+      "properties": {
+        "name": "UDGUV-1F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.04855555555555,
+            21.038472222222225
+          ],
+          [
+            -87.11294444444444,
+            21.01813888888889
+          ],
+          [
+            -87.38988888888889,
+            20.93025
+          ],
+          [
+            -87.77461111111111,
+            20.80713888888889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_NOSUG-2F",
+      "properties": {
+        "name": "NOSUG-2F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.01311111111112,
+            21.137083333333333
+          ],
+          [
+            -87.03191666666666,
+            21.224888888888888
+          ],
+          [
+            -87.01525,
+            21.32836111111111
+          ],
+          [
+            -86.9293888888889,
+            21.858805555555556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MMUN_SID4_ROTGI-2F",
+      "properties": {
+        "name": "ROTGI-2F",
+        "type": "SID",
+        "airport": "MMUN",
+        "runway": "30L",
+        "procedure": "SID-4",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.935,
+            21.192916666666665
+          ],
+          [
+            -86.9075,
+            21.261166666666668
+          ],
+          [
+            -86.67180555555557,
+            21.842916666666664
+          ]
+        ]
+      }
+    }
+  ]
+}

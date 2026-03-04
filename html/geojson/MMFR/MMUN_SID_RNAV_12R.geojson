@@ -1,0 +1,282 @@
+{
+  "type": "FeatureCollection",
+  "name": "MMUN_SID_RNAV_12R",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "NUDAL-1A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": false,
+        "sequence": [
+          "UN415",
+          "UN413",
+          "SEVKA",
+          "NUDAL"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.7273888888889,
+            20.958277777777777
+          ],
+          [
+            -86.59638888888888,
+            20.982833333333332
+          ],
+          [
+            -85.98580555555556,
+            21.194083333333335
+          ],
+          [
+            -85.62054722222221,
+            21.26332777777778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "HECAT-2A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": false,
+        "sequence": [
+          "UN415",
+          "UN440",
+          "UN400",
+          "HECAT"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.7273888888889,
+            20.958277777777777
+          ],
+          [
+            -86.40727777777778,
+            20.74638888888889
+          ],
+          [
+            -86.32025,
+            20.688583333333334
+          ],
+          [
+            -86.01388888888889,
+            20.562805555555556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "TAKUX-2A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": false,
+        "sequence": [
+          "UN415",
+          "UN440",
+          "UN400",
+          "ALYRE",
+          "TAKUX"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.7273888888889,
+            20.958277777777777
+          ],
+          [
+            -86.40727777777778,
+            20.74638888888889
+          ],
+          [
+            -86.32025,
+            20.688583333333334
+          ],
+          [
+            -86.07969444444444,
+            20.21875
+          ],
+          [
+            -85.89611111111111,
+            20.026944444444442
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "ALSUP-1C",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true,
+        "sequence": [
+          "UN402",
+          "UN408",
+          "CZM",
+          "UN431",
+          "ALSUP"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.81291666666667,
+            20.907166666666665
+          ],
+          [
+            -86.83313888888888,
+            20.825722222222222
+          ],
+          [
+            -86.91194444444444,
+            20.5075
+          ],
+          [
+            -86.90788888888889,
+            20.05438888888889
+          ],
+          [
+            -86.90877777777779,
+            19.67102777777778
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "UDGUV-2A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true,
+        "sequence": [
+          "UN418",
+          "UN409",
+          "UN419",
+          "UN432",
+          "UDGUV"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.8866388888889,
+            20.937194444444444
+          ],
+          [
+            -86.99269444444444,
+            20.921944444444446
+          ],
+          [
+            -87.35658333333333,
+            20.869027777777777
+          ],
+          [
+            -87.54997222222222,
+            20.840527777777776
+          ],
+          [
+            -87.77461111111111,
+            20.80713888888889
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "NOSUG-2A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true,
+        "sequence": [
+          "UN417",
+          "UN406",
+          "NOSUG"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.77961111111111,
+            21.09575
+          ],
+          [
+            -86.79916666666666,
+            21.190527777777778
+          ],
+          [
+            -86.9293888888889,
+            21.858805555555556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "procedure": "SID",
+        "airport": "MMUN",
+        "runway": "12R",
+        "name": "ROTGI-2A",
+        "navSpec": "RNAV 1",
+        "startsFromRunway": true,
+        "sequence": [
+          "UN412",
+          "UN414",
+          "UN407",
+          "ROTGI"
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -86.71025,
+            21.045944444444444
+          ],
+          [
+            -86.66836111111111,
+            21.10477777777778
+          ],
+          [
+            -86.66900000000001,
+            21.245083333333334
+          ],
+          [
+            -86.67180555555557,
+            21.842916666666664
+          ]
+        ]
+      }
+    }
+  ]
+}

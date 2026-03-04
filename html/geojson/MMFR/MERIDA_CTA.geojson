@@ -1,0 +1,525 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "92c31b49-a0f3-4592-85cf-7405f4e2f396",
+            "properties": {
+                "id": "42674d45-50d1-4fbb-b50e-2cf22ec33726",
+                "name": "CTA MERIDA - SECTOR 1",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95,
+                            20.90278
+                        ],
+                        [
+                            -95,
+                            20.6075
+                        ],
+                        [
+                            -95,
+                            19.49083
+                        ],
+                        [
+                            -95.315,
+                            18.48417
+                        ],
+                        [
+                            -95.33861,
+                            18.40861
+                        ],
+                        [
+                            -96.71167,
+                            13.87833
+                        ],
+                        [
+                            -99.225,
+                            13.12
+                        ],
+                        [
+                            -99.49444,
+                            13.03694
+                        ],
+                        [
+                            -103.90222,
+                            14.80472
+                        ],
+                        [
+                            -104.17167,
+                            14.90917
+                        ],
+                        [
+                            -105.28222,
+                            15.33556
+                        ],
+                        [
+                            -105,
+                            15
+                        ],
+                        [
+                            -100,
+                            11.5
+                        ],
+                        [
+                            -95,
+                            13
+                        ],
+                        [
+                            -92.21667,
+                            14.53333
+                        ],
+                        [
+                            -90.6,
+                            17.81667
+                        ],
+                        [
+                            -90.76139,
+                            19.04556
+                        ],
+                        [
+                            -90.26861,
+                            19.78361
+                        ],
+                        [
+                            -90.00944,
+                            20.16861
+                        ],
+                        [
+                            -90.44667,
+                            21.01333
+                        ],
+                        [
+                            -91.40167,
+                            20.88
+                        ],
+                        [
+                            -95,
+                            20.90278
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ce3f6d1d-cd92-478e-a39c-080e4acf10b2",
+            "properties": {
+                "id": "c40ee249-6df7-4728-910c-f1222b5b1ec7",
+                "name": "CTA MERIDA - SECTOR 2",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.44667,
+                            21.01333
+                        ],
+                        [
+                            -90.00944,
+                            20.16861
+                        ],
+                        [
+                            -90.26861,
+                            19.78361
+                        ],
+                        [
+                            -87.86944,
+                            20.04306
+                        ],
+                        [
+                            -85.98056,
+                            20.83556
+                        ],
+                        [
+                            -87.04028,
+                            21.405
+                        ],
+                        [
+                            -88.09667,
+                            21.16667
+                        ],
+                        [
+                            -89.48111,
+                            21.18472
+                        ],
+                        [
+                            -90.44667,
+                            21.01333
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "6a1fc072-b68d-43b4-bdfa-52a7a154a5f2",
+            "properties": {
+                "id": "0b640792-71fc-4672-be1b-2d907e3abef3",
+                "name": "CTA MERIDA - SECTOR 3",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86,
+                            24
+                        ],
+                        [
+                            -88,
+                            24.5
+                        ],
+                        [
+                            -89.33333,
+                            24.5
+                        ],
+                        [
+                            -89.14111,
+                            23.98
+                        ],
+                        [
+                            -87.25528,
+                            22.9825
+                        ],
+                        [
+                            -87.04028,
+                            21.405
+                        ],
+                        [
+                            -85.98056,
+                            20.83556
+                        ],
+                        [
+                            -85.48028,
+                            20.98889
+                        ],
+                        [
+                            -86,
+                            22
+                        ],
+                        [
+                            -86,
+                            24
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "7c7d8d70-3b3d-427b-991d-640e5960c810",
+            "properties": {
+                "id": "dd37f4b1-492b-47d1-abea-dfd49183153a",
+                "name": "CTA MERIDA - SECTOR 4",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -89.14111,
+                            23.98
+                        ],
+                        [
+                            -89.64139,
+                            23.74806
+                        ],
+                        [
+                            -89.48111,
+                            21.18472
+                        ],
+                        [
+                            -88.09667,
+                            21.16667
+                        ],
+                        [
+                            -87.04028,
+                            21.405
+                        ],
+                        [
+                            -87.25528,
+                            22.9825
+                        ],
+                        [
+                            -89.14111,
+                            23.98
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fac3d387-4c6b-42bc-b298-63a1b38d6013",
+            "properties": {
+                "id": "ae9fa0fa-3986-466b-8589-b9f19fa01e51",
+                "name": "CTA MERIDA - SECTOR 5",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95,
+                            23
+                        ],
+                        [
+                            -95,
+                            22.41028
+                        ],
+                        [
+                            -95,
+                            20.90278
+                        ],
+                        [
+                            -91.40167,
+                            20.88
+                        ],
+                        [
+                            -90.44667,
+                            21.01333
+                        ],
+                        [
+                            -89.48111,
+                            21.18472
+                        ],
+                        [
+                            -89.64139,
+                            23.74806
+                        ],
+                        [
+                            -89.14111,
+                            23.98
+                        ],
+                        [
+                            -89.33333,
+                            24.5
+                        ],
+                        [
+                            -93,
+                            24.5
+                        ],
+                        [
+                            -95,
+                            23
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "0f6bcc2e-f9ec-41d1-abdc-027e6749c091",
+            "properties": {
+                "id": "9df75aab-04f6-4dd4-844d-24a0d5d1ead9",
+                "name": "CTA MERIDA - SECTOR 6",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -95.00333,
+                            21.55833
+                        ],
+                        [
+                            -95,
+                            19.49083
+                        ],
+                        [
+                            -95.09833,
+                            19.16889
+                        ],
+                        [
+                            -90.76139,
+                            19.04556
+                        ],
+                        [
+                            -90.26861,
+                            19.78361
+                        ],
+                        [
+                            -90.00944,
+                            20.16861
+                        ],
+                        [
+                            -90.44667,
+                            21.01333
+                        ],
+                        [
+                            -90.73667,
+                            21.5225
+                        ],
+                        [
+                            -92.17222,
+                            22.03861
+                        ],
+                        [
+                            -93.56139,
+                            21.64306
+                        ],
+                        [
+                            -95.00333,
+                            21.55833
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "d88f3506-abe5-458e-9ee2-914a0cfdfb2f",
+            "properties": {
+                "id": "66563ac0-ee36-4bfe-bc99-732159e410f0",
+                "name": "CTA MERIDA - SECTOR 7",
+                "class": "E",
+                "upperCeiling": {
+                    "value": 195,
+                    "unit": "FL",
+                    "referenceDatum": "STD"
+                },
+                "lowerCeiling": {
+                    "value": 0,
+                    "unit": "FT",
+                    "referenceDatum": "GND"
+                },
+                "type": "CTA",
+                "byNotam": false
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -90.26861,
+                            19.78361
+                        ],
+                        [
+                            -90.76139,
+                            19.04556
+                        ],
+                        [
+                            -90.6,
+                            17.81667
+                        ],
+                        [
+                            -87.75,
+                            18.15
+                        ],
+                        [
+                            -86,
+                            20
+                        ],
+                        [
+                            -85.28333,
+                            20.18333
+                        ],
+                        [
+                            -85.35,
+                            20.73333
+                        ],
+                        [
+                            -85.48028,
+                            20.98889
+                        ],
+                        [
+                            -85.98056,
+                            20.83556
+                        ],
+                        [
+                            -87.86944,
+                            20.04306
+                        ],
+                        [
+                            -90.26861,
+                            19.78361
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
