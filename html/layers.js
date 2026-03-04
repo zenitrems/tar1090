@@ -897,7 +897,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'MERIDA CTA',
             'meridacta',
-            'geojson/MERIDA_CTA.geojson',
+            'geojson/MMFR/MERIDA_CTA.geojson',
             'rgba(0,0,0,0)',
             'rgba(251, 255, 0, 0.69)',
             false
@@ -908,7 +908,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'WAYPOINTS',
             'waypoints',
-            'geojson/WAYPOINTS.geojson',
+            'geojson/MMFR/WAYPOINTS.geojson',
             'rgba(0,0,0,0)',
             'rgb(0, 0, 0)',
             true
@@ -918,7 +918,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'MMUN STAR RNAV RWY 12',
             'mmun_star_rnav_12',
-            'geojson/MMUN_STAR_RNAV_12.geojson',
+            'geojson/MMFR/MMUN_STAR_RNAV_12.geojson',
             'rgba(0,0,0,0)',
             'rgb(0, 255, 50)',
             false
@@ -928,7 +928,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'MMUN STAR RNAV RWY 30',
             'mmun_star_rnav_30',
-            'geojson/MMUN_STAR_RNAV_30.geojson',
+            'geojson/MMFR/MMUN_STAR_RNAV_30.geojson',
             'rgba(0,0,0,0)',
             'rgb(0, 255, 50)',
             false
@@ -938,7 +938,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'MMUN SID RNAV RWY 12R',
             'mmun_sid_rnav_12r',
-            'geojson/MMUN_SID_RNAV_12R.geojson',
+            'geojson/MMFR/MMUN_SID_RNAV_12R.geojson',
             'rgba(0,0,0,0)',
             'rgb(255, 150, 0)',
             false
@@ -948,7 +948,7 @@ function createBaseLayers() {
         createGeoJsonLayer(
             'MMUN SID RNAV RWY 30L',
             'mmun_sid_rnav_30l',
-            'geojson/MMUN_SID_RNAV_30L.geojson',
+            'geojson/MMFR/MMUN_SID_RNAV_30L.geojson',
             'rgba(0,0,0,0)',
             'rgb(255, 150, 0)',
             false
